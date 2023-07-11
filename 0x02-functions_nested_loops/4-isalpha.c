@@ -5,7 +5,7 @@
  * @c: character to be checked
  * Return: returns 1 and 0 depending on the condition
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	int lower = (c >= 'a' && c <= 'z');
 	int upper = (c >= 'A' && c <= 'Z');
